@@ -189,3 +189,51 @@ nav{
     line-height: 20px;
     color: #627382;
 }
+.lists{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: left;
+
+}
+
+#solution{
+    display: flex;
+}
+
+.solution-image img{
+    margin-top:120px;
+    margin-left:120px;
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.solution-texts{
+    max-width: 700px;
+    margin: 222px 120px 120px 60px;
+}
+
+.solution-texts h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.para_1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.para_2{
+    font-size: 16px;
+    color:#627382
+}
+
+.lists strong{
+
+    line-height: 20px;
+    font-size: 16;
+}
+
+
+

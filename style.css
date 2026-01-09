@@ -130,3 +130,62 @@ nav{
 }
 
 /*banner done */
+
+#tricks{
+    max-width: 1600px;
+}
+
+.tricks-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tricks-container h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.tricks-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    
+}
+
+.tricks-box {
+    max-width: 1360px;
+    display: flex;
+    gap: 24px; 
+    margin: 0 auto;
+    justify-content: space-around; 
+    margin-top: 44px;
+
+}
+.tricks-card {
+    max-width: 300px; 
+    padding: 24px;
+    border:none; 
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0px 8px 0 #e6e1e1;
+
+}
+.tricks-card img {
+    background-color: #F95555;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+    padding: 20px 20px;   
+
+}
+
+.tricks-card h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tricks-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
